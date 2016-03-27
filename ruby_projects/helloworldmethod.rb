@@ -1,5 +1,7 @@
-def hello 
-  puts "hello world!" 
+def hello(anything)
+  puts anything 
 end
 
-hello
+hello "My name is Dami"
+hello "I love learning about Ruby"
+hello "I put do anything coding"
