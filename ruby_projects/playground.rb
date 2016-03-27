@@ -1,5 +1,5 @@
-puts "Please enter your first name"
+def multiply(first_number, second_number)
+  first_number.to_f * second_number.to_f
+end
 
-first_name = gets.chomp
-
-puts "Welcome #{first_name}, to your Shopping list App"
+puts multiply(70, 4.55)
